@@ -8,7 +8,6 @@
 .offers-cards .card {
   color: var(--text-secondary-color);
   background-color: black;
-  width: 312px;
   height: 288px;
   /* evita que os valores de padding sejam somados as medidas do elemento*/
   box-sizing: border-box;
@@ -18,10 +17,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
