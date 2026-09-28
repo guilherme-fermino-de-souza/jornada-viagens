@@ -26,14 +26,7 @@
   background-size: cover;
 }
 
-.destinations .item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 .destinations .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
   margin-bottom: 24px;
 }
 
