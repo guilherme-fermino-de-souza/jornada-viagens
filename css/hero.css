@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.pacotes-hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -12,6 +13,46 @@
 .bottom-hero .hero-img {
   background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
+}
+
+.pacotes-hero {
+  display: grid;
+}
+
+.pacotes-hero > * {
+  grid-area: 1 / 1;
+}
+
+.pacotes-hero .hero-img {
+  background: url(../img/bg-pacotes-hero-tablet.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  background-position: right;
+}
+
+.pacotes-hero .text-content {
+  color: var(--text-secondary-color);
+  margin: 65px 24px 0;
+}
+
+.pacotes-hero .text-content .section-title {
+  margin: 0 0 32px 0;
+}
+
+.pacotes-hero .text-content .section-title h2 {
+  font-size: 48px;
+  text-align: left;
+  margin: 0px;
+}
+
+.pacotes-hero .text-content .section-title hr {
+  margin: 16px 0 0;
+}
+
+.pacotes-hero .text-content h3 {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 .hero h2 {
@@ -36,6 +77,24 @@
     background-size: cover;
   }
 
+  .pacotes-hero .hero-img {
+    height: 620px;
+    background: url(../img/bg-pacotes-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .pacotes-hero .text-content {
+    color: var(--text-secondary-color);
+    margin: 158px 45px 0 96px;
+    padding: 0;
+  }
+
+  .pacotes-hero .text-content h3 {
+    font-size: 32px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -52,6 +111,16 @@
     height: 600px;
     background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
     background-size: cover;
+  }
+
+  .pacotes-hero .hero-img {
+    background: url(../img/bg-pacotes-hero-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .pacotes-hero .text-content {
+    margin-right: 50%;
   }
 
   .hero h2 {
