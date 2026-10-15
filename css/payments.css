@@ -22,6 +22,21 @@
   background-size: cover;
 }
 
+.payments .content-container .image-gallery .image.package-first {
+  background: url(../img/pacotes-pagamento-mobile-1.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.package-second {
+  background: url(../img/pacotes-pagamento-mobile-2.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.package-thirdy {
+  background: url(../img/pacotes-pagamento-mobile-3.png) no-repeat;
+  background-size: cover;
+}
+
 .payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
@@ -39,6 +54,38 @@
 
   .payments .content-container .image-gallery .image.thirdy {
     background: url(../img/payment-tablet-03-people.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.package-first {
+    background: url(../img/pacotes-pagamento-tablet-1.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.package-second {
+    background: url(../img/pacotes-pagamento-tablet-2.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.package-thirdy {
+    background: url(../img/pacotes-pagamento-tablet-3.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .content-container .image-gallery .image.package-first {
+    background: url(../img/pacotes-pagamento-desktop-1.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.package-second {
+    background: url(../img/pacotes-pagamento-desktop-2.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.package-thirdy {
+    background: url(../img/pacotes-pagamento-desktop-3.png) no-repeat;
     background-size: cover;
   }
 }
