@@ -56,13 +56,13 @@ section.pacotes-hero {
 
 .section-title {
   width: 280px;
-  margin: 0 auto 32px;
+  margin: 88px auto 32px;
 }
 
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0 0 24px;
+  margin: 24px 0 ;
 }
 
 .content-text {
