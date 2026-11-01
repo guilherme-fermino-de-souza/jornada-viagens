@@ -54,6 +54,10 @@ nav {
   font-size: 24px;
 }
 
+.list-link li .active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
@@ -93,7 +97,7 @@ nav {
   }
   .navigation-menu a:hover {
     color: var(--primary-color);
-    transition: .3s;
+    transition: 0.3s;
   }
 }
 
